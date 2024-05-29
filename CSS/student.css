@@ -1,0 +1,204 @@
+@import url("global.css");
+main {
+    width: 100%;
+    margin-top: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container_student {
+    width: 95%;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.main_container {
+    width: 100%;
+    margin: 20px;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #707070;
+}
+
+.general_menu_title {
+    background-color: #FFFFFF;
+}
+
+.general_menu_title h3 {
+    padding: 15px;
+    color: var(--blue2);
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+.tab_title {
+    width: 200px;
+    border-right: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab_title h3 {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.active {
+    color: #393939;
+}
+
+.deactivate {
+    color: var(--blue2);
+}
+
+.secondary_container {
+    width: 100%;
+    min-height: 415px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Student my_tutoring*/
+
+.tutorial_container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #707070;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+.tutorial_container_coumn_1 {
+    width: 80%;
+}
+
+.tutorial_container_coumn_1 h3 {
+    padding-bottom: 10px;
+    color: var(--blue2);
+}
+
+.tutorial_container_coumn_2 {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tutorial_container_coumn_2 h4 {
+    color: var(--blue2);
+}
+
+.tutorial_container_coumn_2 h5 {
+    color: #0080FA;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/*request_tutoring*/
+
+.container_request_tutoring {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container_request_tutoring h4 {
+    color: var(--blue2);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.container_request_tutoring select {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container_request_tutoring textarea {
+    height: 100px;
+    font-size: 16px;
+}
+
+.container_request_tutoring input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.space {
+    height: 20px;
+}
+
+.btn_opcion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn_opcion button {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: var(--blue2);
+    cursor: pointer;
+}
+
+.btn_opcion button:hover {
+    color: #FFFFFF;
+    background-color: var(--blue2);
+}
+
+
+/*open_my_tutoring*/
+
+.container_open_my_tutoring {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_open_my_tutoring h3 {
+    color: var(--blue2);
+}
+
+.btn_open_my_tutoring {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.title_open_my_tutoring {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Profesor*/

@@ -1,0 +1,161 @@
+/*Footer*/
+#textfooter {
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #373435;
+}
+#footer{
+    /* padding: 20px 0px 20px 0px; */
+    background-color: #980511;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+    height: 40px;
+	min-height: 100%;
+	color: white;
+
+	/* max-width: 100% !important; */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5;
+    position: relative;
+	bottom: 0;
+	width: 100%;
+    height: auto;
+    margin-top: 0px;
+    clear: both;    
+    overflow: visible;
+    min-height:50vh;
+    top:60%;	    
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: none;
+}
+.ft-title {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.ft-text {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 9pt;
+}
+
+.container {
+    flex: 1;    /* same as flex-grow: 1; */
+}
+
+.ft-main {
+    padding: 00;
+    border-top: 1px #777 solid; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+
+.ft-main-item li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+    background-color: #980511;
+    min-width: 600px;
+}
+.ft-social-list {
+    display: flexbox;    
+    padding-top: 0.6rem;
+    height: 60px;
+}
+.ft-social-list .left {
+    float: left;    
+    text-align:left;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-right: 3px #ffffff solid;    
+    font-size: 14pt;
+    
+}
+.ft-social-list .right {
+    float: right;    
+    margin: 0.5rem;
+    justify-content: right;    
+    font-size: 1.25rem;    
+}
+
+.ft-social-list .right a {
+    background:#ffffff;  
+    color: #980511;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 2em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.5em;
+}
+
+.ft-social-list .right a:hover {
+    background:#373435;
+    color: #ffffff;    
+}
+
+
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
