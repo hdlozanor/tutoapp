@@ -3,7 +3,7 @@
     <form  method="POST">
         <ul>
             <li>
-                <h3>MENU DE ADMINISTRACION </h3>
+                <h3>MENU DE ADMINISTRACION 2</h3>
             </li>
             <li>
                 <label></label>
@@ -38,7 +38,7 @@
                             <input type="text" id="name_career" name="name_career" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" required>
                         </li>
                         <li>
-                            <button type="submit" onclick='new_programa();'  value="Enviar" id="name_career" class="boton">Agregar</button>
+                            <button type="button" onclick='new_programa();'  value="Enviar" id="name_career" class="boton">Agregar</button>
                         </li>
                     </ul>
                 </form>
